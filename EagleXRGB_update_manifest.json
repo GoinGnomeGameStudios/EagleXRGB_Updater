@@ -1,18 +1,39 @@
 {
-  "version": "8.0.2",
+  "version": "8.0.1",
   "files_to_update": [
-    "EDC_EagleXRGB_Connector.exe",
-	"EagleXRGB_import_cert.bat",
-    "EagleXRGB_version.json"
+    {
+      "path": "EDC_EagleXRGB_Connector.exe",
+      "action": "replace"
+    },
+    {
+      "path": "EagleXRGB_import_cert.bat",
+      "action": "replace"
+    },
+    {
+      "path": "EagleXRGB_version.json",
+      "action": "replace"
+    }
   ],
   "folders_to_update": [
-    "_internal",
-    "icons",
-    "images",
-    "config"
+    {
+      "path": "_internal",
+      "action": "merge"
+    },
+    {
+      "path": "icons",
+      "action": "create_if_not_exists"
+    },
+    {
+      "path": "images",
+      "action": "create_if_not_exists"
+    },
+    {
+      "path": "config",
+      "action": "create_if_not_exists"
+    }
   ],
   "files_to_remove": [],
   "folders_to_remove": [
-    "deprecated_folder"
+    "EagleXRGB_update"
   ]
 }
