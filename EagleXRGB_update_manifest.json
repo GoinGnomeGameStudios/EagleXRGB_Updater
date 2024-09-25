@@ -5,6 +5,10 @@
       "path": "EDC_EagleXRGB_Connector.exe",
       "action": "replace"
     },
+	{
+      "path": "EagleXRGB_Updater.exe",
+      "action": "replace"
+    },
     {
       "path": "EagleXRGB_import_cert.bat",
       "action": "replace"
