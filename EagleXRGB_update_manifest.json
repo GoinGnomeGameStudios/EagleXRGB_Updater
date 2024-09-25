@@ -7,7 +7,7 @@
     },
 	{
       "path": "EagleXRGB_Updater.exe",
-      "action": "create_if_not_exists"
+      "action": "no_change"
     },
     {
       "path": "EagleXRGB_import_cert.bat",
@@ -36,7 +36,9 @@
       "action": "create_if_not_exists"
     }
   ],
-  "files_to_remove": [],
+  "files_to_remove": [
+  "EagleXRGB_update_info.json"
+  ],
   "folders_to_remove": [
     "EagleXRGB_update"
   ]
