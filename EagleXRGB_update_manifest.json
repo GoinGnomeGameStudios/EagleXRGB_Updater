@@ -1,5 +1,5 @@
 {
-  "version": "8.0.2",
+  "version": "8.0.3",
   "files_to_update": [
     {
       "path": "EDC_EagleXRGB_Connector.exe",
@@ -7,7 +7,7 @@
     },
 	{
       "path": "EagleXRGB_Updater.exe",
-      "action": "no_change"
+      "action": "update"
     },
     {
       "path": "EagleXRGB_import_cert.bat",
