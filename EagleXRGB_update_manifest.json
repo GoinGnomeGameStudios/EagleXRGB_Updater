@@ -1,5 +1,5 @@
 {
-  "version": "8.1.3",
+  "version": "8.1.4",
   "files_to_update": [
     {
       "path": "EDC_EagleXRGB_Connector.exe",
@@ -37,8 +37,7 @@
     }
   ],
   "files_to_remove": [
-  "EagleXRGB_update_info.json",
-  "EagleXRGB_update_manifest.json"
+  "EagleXRGB_update_info.json"
   ],
   "folders_to_remove": [
     "EagleXRGB_update"
