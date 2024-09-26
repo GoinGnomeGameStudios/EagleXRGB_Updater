@@ -1,6 +1,6 @@
 {
-  "version": "8.2.1",
-  "updater_version": "1.0.3",
+  "version": "8.2.2",
+  "updater_version": "1.0.4",
   "files_to_update": [
     {
       "path": "EDC_EagleXRGB_Connector.exe",
