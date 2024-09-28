@@ -1,6 +1,7 @@
 {
-  "version": "8.3.4",
+  "launcher_version": "1.0.1",
   "updater_version": "1.1.6",
+  "version": "8.3.4",
   "files_to_update": [
     {
       "path": "EDC_EagleXRGB_Connector.exe",
@@ -8,6 +9,10 @@
     },
     {
       "path": "EagleXRGB_Auto_updater.exe",
+      "action": "update"
+    },
+    {
+      "path": "EagleXRGB_Launcher.exe",
       "action": "update"
     },
     {
@@ -38,11 +43,11 @@
     }
   ],
   "files_to_remove": [
-  "EagleXRGB_update_info.json",
-  "EagleXRGB_update_manifest.json"
+    "EagleXRGB_update_info.json",
+    "EagleXRGB_update_manifest.json"
   ],
   "folders_to_remove": [
     "EagleXRGB_update",
-	"EagleXRGB_backup"
+    "EagleXRGB_backup"
   ]
 }
