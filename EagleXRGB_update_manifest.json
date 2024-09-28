@@ -5,41 +5,54 @@
   "files_to_update": [
     {
       "path": "EDC_EagleXRGB_Connector.exe",
-      "action": "replace"
+      "action": "replace",
+      "critical": true
     },
     {
       "path": "EagleXRGB_Auto_updater.exe",
-      "action": "update"
+      "action": "update",
+      "critical": true
     },
     {
       "path": "EagleXRGB_Launcher.exe",
-      "action": "update"
+      "action": "update",
+      "critical": true
     },
     {
       "path": "EagleXRGB_import_cert.bat",
-      "action": "replace"
+      "action": "replace",
+      "critical": false
     },
     {
       "path": "EagleXRGB_version.json",
-      "action": "replace"
+      "action": "replace",
+      "critical": true
     }
   ],
   "folders_to_update": [
     {
       "path": "_internal",
-      "action": "merge"
+      "action": "merge",
+      "critical": true,
+      "ignore_patterns": [
+        "*.pyc",
+        "__pycache__"
+      ]
     },
     {
       "path": "icons",
-      "action": "create_if_not_exists"
+      "action": "create_if_not_exists",
+      "critical": false
     },
     {
       "path": "images",
-      "action": "create_if_not_exists"
+      "action": "create_if_not_exists",
+      "critical": false
     },
     {
       "path": "config",
-      "action": "create_if_not_exists"
+      "action": "create_if_not_exists",
+      "critical": false
     }
   ],
   "files_to_remove": [
@@ -49,5 +62,14 @@
   "folders_to_remove": [
     "EagleXRGB_update",
     "EagleXRGB_backup"
+  ],
+  "update_steps": [
+    "Backup current version",
+    "Update critical files",
+    "Update non-critical files",
+    "Merge _internal folder",
+    "Create missing folders",
+    "Remove obsolete files and folders",
+    "Update version information"
   ]
 }
