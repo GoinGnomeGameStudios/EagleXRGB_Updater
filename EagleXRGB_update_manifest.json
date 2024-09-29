@@ -1,15 +1,14 @@
 {
-  "launcher_version": "1.0.0",
   "updater_version": "1.1.6",
   "version": "8.3.4",
   "files_to_update": [
     {
-      "path": "EDC_EagleXRGB_Connector.exe",
+      "path": "EagleXRGB_Connector.exe",
       "action": "replace",
       "critical": true
     },
     {
-      "path": "EagleXRGB_Auto_updater.exe",
+      "path": "EagleXRGB_updater.exe",
       "action": "update",
       "critical": true
     },
