@@ -8,7 +8,7 @@
       "critical": true
     },
     {
-      "path": "EagleXRGB_updater.exe",
+      "path": "EagleXRGB_Updater.exe",
       "action": "update",
       "critical": true
     },
