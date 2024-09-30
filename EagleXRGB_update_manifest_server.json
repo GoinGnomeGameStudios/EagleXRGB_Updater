@@ -1,0 +1,73 @@
+{
+  "version": "8.3.3",
+  "updater_version": "1.1.5",
+  "files_to_update": [
+    {
+      "path": "EagleXRGB_Connector.exe",
+      "action": "replace",
+      "critical": true
+    },
+    {
+      "path": "EagleXRGB_Updater.exe",
+      "action": "update",
+      "critical": true
+    },
+    {
+      "path": "EagleXRGB_Launcher.exe",
+      "action": "update",
+      "critical": true
+    },
+    {
+      "path": "EagleXRGB_import_cert.bat",
+      "action": "replace",
+      "critical": false
+    },
+    {
+      "path": "EagleXRGB_version_client.json",
+      "action": "replace",
+      "critical": true
+    }
+  ],
+  "folders_to_update": [
+    {
+      "path": "_internal",
+      "action": "merge",
+      "critical": true,
+      "ignore_patterns": [
+        "*.pyc",
+        "__pycache__"
+      ]
+    },
+    {
+      "path": "icons",
+      "action": "create_if_not_exists",
+      "critical": false
+    },
+    {
+      "path": "images",
+      "action": "create_if_not_exists",
+      "critical": false
+    },
+    {
+      "path": "config",
+      "action": "create_if_not_exists",
+      "critical": false
+    }
+  ],
+  "files_to_remove": [
+    "EagleXRGB_update_info.json"
+  ],
+  "folders_to_remove": [
+    "EagleXRGB_update",
+    "EagleXRGB_backup"
+  ],
+  "update_steps": [
+    "Backup current version",
+    "Update critical files",
+    "Update non-critical files",
+    "Merge _internal folder",
+    "Create missing folders",
+    "Remove obsolete files and folders",
+    "Update version information"
+  ]
+}

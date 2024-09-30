@@ -1,0 +1,7 @@
+{
+  "latest_version": "8.3.3",
+  "release_date": "2023-09-30",
+  "release_notes": "Bug fixes and performance improvements",
+  "update_package": "EagleXRGB_update_8.3.3.zip",
+  "manifest": "EagleXRGB_update_manifest_8.3.3.json"
+}
