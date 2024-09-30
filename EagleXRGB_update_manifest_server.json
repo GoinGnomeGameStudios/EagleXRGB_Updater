@@ -9,7 +9,7 @@
     },
     {
       "path": "EagleXRGB_Updater.exe",
-      "action": "update",
+      "action": "replace",
       "critical": true
     },
     {
@@ -26,8 +26,39 @@
   "folders_to_update": [
     {
       "path": "_internal",
-      "action": "merge",
+      "action": "selective_update",
       "critical": true,
+      "update_details": [
+        {
+          "category": "custom_scripts",
+          "files": [
+            "EagleXRGB_MainApp.py",
+            "EagleXRGB_Updater.py",
+            "EagleXRGB_GUI_Config.py",
+            "EagleXRGB_OpenRGB_config.py",
+            "EagleXRGB_Server_Config.py",
+            "EagleXRGB_custom_widgets.py",
+            "EagleXRGB_Error_Reporting.py",
+            "EagleXRGB_notifications.py",
+            "EagleXRGB_version_utils.py"
+          ],
+          "action": "replace"
+        },
+        {
+          "category": "third_party_modules",
+          "modules": [
+            "PyQt5",
+            "openrgb",
+            "cryptography",
+            "requests"
+          ],
+          "action": "update_if_changed"
+        },
+        {
+          "category": "system_modules",
+          "action": "leave_unchanged"
+        }
+      ],
       "ignore_patterns": [
         "*.pyc",
         "__pycache__"
@@ -35,17 +66,17 @@
     },
     {
       "path": "icons",
-      "action": "create_if_not_exists",
+      "action": "merge",
       "critical": false
     },
     {
       "path": "images",
-      "action": "create_if_not_exists",
+      "action": "merge",
       "critical": false
     },
     {
       "path": "config",
-      "action": "create_if_not_exists",
+      "action": "merge",
       "critical": false
     }
   ],
@@ -59,9 +90,9 @@
   "update_steps": [
     "Backup current version",
     "Update critical files",
+    "Selectively update _internal folder",
     "Update non-critical files",
-    "Merge _internal folder",
-    "Create missing folders",
+    "Merge resource folders",
     "Remove obsolete files and folders",
     "Update version information"
   ]
