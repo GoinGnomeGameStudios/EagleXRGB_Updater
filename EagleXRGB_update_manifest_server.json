@@ -13,11 +13,6 @@
       "critical": true
     },
     {
-      "path": "EagleXRGB_Launcher.exe",
-      "action": "update",
-      "critical": true
-    },
-    {
       "path": "EagleXRGB_import_cert.bat",
       "action": "replace",
       "critical": false
