@@ -59,7 +59,7 @@
     "EagleXRGB_update_manifest.json"
   ],
   "folders_to_remove": [
-    "EagleXRGB_update",
+
     "EagleXRGB_backup"
   ],
   "update_steps": [
