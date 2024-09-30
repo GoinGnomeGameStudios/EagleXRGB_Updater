@@ -1,0 +1,10 @@
+{
+    "latest_version": "8.3.4",
+    "package_name": "EagleXRGB_upate_package_8.3.4.zip",
+    "package_url": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/EagleXRGB_upate_package_8.3.4.zip",
+    "package_hash": "a7aff739468aa91c4bd335d8ba7f30b94f699d7284aa997977d6633654e009bf",
+    "signature_file": "EagleXRGB_upate_package_8.3.4.zip.sig",
+    "signature_url": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/EagleXRGB_upate_package_8.3.4.zip.sig",
+    "release_notes": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/release-notes-8.3.4.html",
+    "min_required_version": "8.3.3"
+}
