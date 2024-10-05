@@ -1,1 +1,108 @@
-Test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Release Notes - Version 8.3.4</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .version {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007BFF;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section-title {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            color: #007BFF;
+            cursor: pointer;
+        }
+        .section-title.active {
+            color: #0056b3;
+        }
+        .item {
+            margin: 5px 0;
+            padding: 5px;
+            border-left: 5px solid #007BFF;
+            background: #e9f7ff;
+            display: none; /* Initially hidden */
+        }
+        .dark-mode {
+            background-color: #333;
+            color: #f4f4f4;
+        }
+        .dark-mode header {
+            background-color: #555;
+        }
+        #mode-toggle {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #mode-toggle:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Release Notes</h1>
+    <h2>Version 8.3.4</h2>
+    <button id="mode-toggle">Switch to Dark Mode</button>
+</header>
+
+<div class="container">
+    <div class="section">
+        <div class="section-title">New Features</div>
+        <div class="item">Feature 1: Description of the new feature.</div>
+        <div class="item">Feature 2: Description of the new feature.</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Improvements</div>
+        <div class="item">Improvement 1: Description of the improvement.</div>
+        <div class="item">Improvement 2: Description of the improvement.</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Bug Fixes</div>
+        <div class="item">Bug Fix 1: Description of the bug fix.</div>
+        <div class="item">Bug Fix 2: Description of the bug fix.</div>
+    </div>
+</div>
+
+</body>
+</html>
