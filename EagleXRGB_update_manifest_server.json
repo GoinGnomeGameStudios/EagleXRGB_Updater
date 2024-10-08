@@ -51,6 +51,10 @@
               "path": "EagleXRGB_splash_screen.py",
               "action": "replace_if_flagged"
             },
+             {
+              "path": "EagleXRGB_UI_Components.py",
+              "action": "replace_if_flagged"
+            },
             {
               "path": "EagleXRGB_Updater.py",
               "action": "replace_if_flagged"
