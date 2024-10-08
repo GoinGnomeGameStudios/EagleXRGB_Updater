@@ -66,6 +66,10 @@
             {
               "path": "EagleXRGB_version_utils.py",
               "action": "replace_if_flagged"
+            },
+			{
+              "path": "public_key.pem",
+              "action": "replace_if_flagged"
             }
           ]
         }
