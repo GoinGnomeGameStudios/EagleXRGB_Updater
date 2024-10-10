@@ -1,8 +1,8 @@
 {
-  "latest_version": "8.3.6",
-  "updater_version": "1.1.8",
-  "release_date": "2024-10-8",
+  "latest_version": "8.3.7",
+  "updater_version": "1.1.9",
+  "release_date": "2024-10-9",
   "release_notes": "Bug fixes and performance improvements, UI improvements",
-  "update_package": "EagleXRGB_update_package_8.3.6.zip",
+  "update_package": "EagleXRGB_update_package_8.3.7.zip",
   "manifest": "EagleXRGB_update_manifest_server.json"
 }
