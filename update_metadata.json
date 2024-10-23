@@ -1,10 +1,10 @@
 {
-    "latest_version": "8.3.8",
-    "package_name": "EagleXRGB_update_package_8.3.8.zip",
-    "package_url": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/EagleXRGB_update_package_8.3.8.zip",
-    "package_hash": "82120d5fb6a46034853a2677029b3adec35927ef86ffd6e7ec568ac5c5471059",
-    "signature_file": "EagleXRGB_update_package_8.3.8.zip.sig",
-    "signature_url": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/EagleXRGB_update_package_8.3.8.zip.sig",
-    "release_notes": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/release-notes-8.3.8.html",
-    "min_required_version": "8.3.7"
+    "latest_version": "8.3.9",
+    "package_name": "EagleXRGB_update_package_8.3.9.zip",
+    "package_url": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/EagleXRGB_update_package_8.3.9.zip",
+    "package_hash": "4f83c074ae02ace64da0c30b5161800d6f29c51ec470eb34fb58df624afb361f",
+    "signature_file": "EagleXRGB_update_package_8.3.9.zip.sig",
+    "signature_url": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/EagleXRGB_update_package_8.3.9.zip.sig",
+    "release_notes": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/release-notes-8.3.9.html",
+    "min_required_version": "8.3.8"
 }
