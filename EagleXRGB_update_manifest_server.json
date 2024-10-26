@@ -5,22 +5,17 @@
     {
       "path": "EagleXRGB_Connector.exe",
       "action": "replace",
-      "critical": true,
-      "hash": null,
-      "version": "8.3.9"
+      "critical": true
     },
     {
       "path": "EagleXRGB_Updater.exe",
       "action": "replace",
-      "critical": true,
-      "hash": null,
-      "version": "1.2.1"
+      "critical": true
     },
     {
       "path": "EagleXRGB_version_client.json",
       "action": "replace",
-      "critical": true,
-      "hash": null
+      "critical": true
     }
   ],
   "folders_to_update": [
@@ -30,75 +25,47 @@
       "critical": true,
       "update_details": [
         {
-          "category": "encrypted_scripts",
+          "category": "custom_scripts",
           "files": [
             {
-              "path": "EagleXRGB_BootstrapUpdater.enc",
-              "action": "replace_if_flagged",
-              "critical": true,
-              "type": "encrypted",
-              "hash": null
-            },
-            {
               "path": "EagleXRGB_custom_widgets.enc",
-              "action": "replace_if_flagged",
-              "type": "encrypted",
-              "hash": null
+              "action": "replace_if_flagged"
             },
             {
-              "path": "EagleXRGB_Error_Reporting.enc",
-              "action": "replace_if_flagged",
-              "type": "encrypted",
-              "hash": null
-            },
-            {
-              "path": "EagleXRGB_GUI_Config.enc",
-              "action": "replace_if_flagged",
-              "type": "encrypted",
-              "hash": null
-            },
-            {
-              "path": "EagleXRGB_notifications.enc",
-              "action": "replace_if_flagged",
-              "type": "encrypted",
-              "hash": null
-            },
-            {
-              "path": "EagleXRGB_Server_Config.enc",
-              "action": "replace_if_flagged",
-              "type": "encrypted",
-              "hash": null
-            },
-            {
-              "path": "EagleXRGB_splash_screen.enc",
-              "action": "replace_if_flagged",
-              "type": "encrypted",
-              "hash": null
-            },
-            {
-              "path": "EagleXRGB_UI_Components.enc",
-              "action": "replace_if_flagged",
-              "type": "encrypted",
-              "hash": null
+              "path": "EagleXRGB_BootstrapUpdater.enc",
+              "action": "replace_if_flagged"
             },
             {
               "path": "EagleXRGB_Updater.enc",
-              "action": "replace_if_flagged",
-              "critical": true,
-              "type": "encrypted",
-              "hash": null
+              "action": "replace_if_flagged"
             },
             {
-              "path": "EagleXRGB_UpdaterElevator.enc",
-              "action": "replace_if_flagged",
-              "type": "encrypted",
-              "hash": null
+              "path": "EagleXRGB_Error_Reporting.enc",
+              "action": "replace_if_flagged"
+            },
+            {
+              "path": "EagleXRGB_GUI_Config.enc",
+              "action": "replace_if_flagged"
+            },
+            {
+              "path": "EagleXRGB_notifications.enc",
+              "action": "replace_if_flagged"
+            },
+            {
+              "path": "EagleXRGB_Server_Config.enc",
+              "action": "replace_if_flagged"
+            },
+            {
+              "path": "EagleXRGB_splash_screen.enc",
+              "action": "replace_if_flagged"
+            },
+            {
+              "path": "EagleXRGB_UI_Components.enc",
+              "action": "replace_if_flagged"
             },
             {
               "path": "EagleXRGB_version_utils.enc",
-              "action": "replace_if_flagged",
-              "type": "encrypted",
-              "hash": null
+              "action": "replace_if_flagged"
             }
           ]
         }
@@ -106,76 +73,63 @@
       "ignore_patterns": [
         "*.pyc",
         "__pycache__",
-        "*.py",
-        "temp/*",
-        "*.bak",
-        "*.tmp"
-      ]
-    },
-    {
-      "path": "EagleXRGB_icons",
-      "action": "merge",
-      "critical": false,
-      "ignore_patterns": [
         "*.tmp",
         "*.bak"
       ]
     },
     {
-      "path": "EagleXRGB_images",
-      "action": "merge",
-      "critical": false,
-      "ignore_patterns": [
-        "*.tmp",
-        "*.bak"
+      "path": "_internal",
+      "action": "selective_update",
+      "critical": true,
+      "update_details": [
+        {
+          "category": "system_files",
+          "files": [
+            {
+              "path": "public_key.pem",
+              "action": "replace_if_flagged"
+            }
+          ]
+        }
       ]
     },
     {
-      "path": "EagleXRGB_config",
+      "path": "icons",
       "action": "merge",
-      "critical": false,
-      "ignore_patterns": [
-        "*.tmp",
-        "*.bak",
-        "local_settings.json"
-      ]
+      "critical": false
+    },
+    {
+      "path": "images",
+      "action": "merge",
+      "critical": false
+    },
+    {
+      "path": "config",
+      "action": "merge",
+      "critical": false
     }
   ],
+  "excluded_paths": [
+    "python_embedded/**/*",
+    "*.dll",
+    "*.pyd",
+    "_ssl.pyd",
+    "unicodedata.pyd"
+  ],
   "files_to_remove": [
-    "EagleXRGB_update_info.json",
-    "_internal/EagleXRGB_BootstrapUpdater.py",
-    "_internal/EagleXRGB_Updater.py"
+    "EagleXRGB_update_info.json"
   ],
   "folders_to_remove": [
-    "_internal",
     "EagleXRGB_update",
     "EagleXRGB_backup"
   ],
-  "verification_steps": {
-    "verify_encryption": true,
-    "verify_signatures": true,
-    "verify_hashes": true,
-    "verify_versions": true
-  },
   "update_steps": [
-    "Verify update package integrity",
-    "Verify file signatures",
     "Backup current version",
     "Update critical executables",
-    "Update encrypted scripts",
+    "Update EagleXRGB_Scripts folder",
+    "Update _internal folder",
     "Merge resource folders",
-    "Remove obsolete files",
-    "Update version information",
-    "Verify updated files"
-  ],
-  "rollback_info": {
-    "backup_location": "EagleXRGB_backup",
-    "verify_backup": true,
-    "critical_files": [
-      "EagleXRGB_Connector.exe",
-      "EagleXRGB_Updater.exe",
-      "EagleXRGB_Scripts/EagleXRGB_BootstrapUpdater.enc",
-      "EagleXRGB_Scripts/EagleXRGB_Updater.enc"
-    ]
-  }
+    "Remove obsolete files and folders",
+    "Update version information"
+  ]
 }
