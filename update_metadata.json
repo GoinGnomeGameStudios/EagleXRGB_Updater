@@ -2,7 +2,7 @@
     "latest_version": "8.3.9",
     "package_name": "EagleXRGB_update_package_8.3.9.zip",
     "package_url": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/EagleXRGB_update_package_8.3.9.zip",
-    "package_hash": "3b2efa92a0159a27f3d6fdd328502d7b458694c82e48497434574ddb4f62d21b",
+    "package_hash": "a2b697bbee36bda29df74e522416ad7dabd063ed783f0421839252dfbe7338ac",
     "signature_file": "EagleXRGB_update_package_8.3.9.zip.sig",
     "signature_url": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/EagleXRGB_update_package_8.3.9.zip.sig",
     "release_notes": "https://goingnomegamestudios.github.io/EagleXRGB_Updater/release-notes-8.3.9.html",
@@ -12,7 +12,7 @@
         {
             "path": "EagleXRGB_Connector.exe",
             "action": "replace",
-            "hash": "aa613b6162782c80e357541efc111340a5f385bb0816019f9c458170f4c3af58",
+            "hash": "18d794d1f28276e21437341fd1279bf1f5e8cfa8d65811977c897038e752e8af",
             "critical": true
         },
         {
