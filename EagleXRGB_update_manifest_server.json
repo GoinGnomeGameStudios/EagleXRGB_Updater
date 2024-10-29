@@ -4,7 +4,7 @@
     {
       "path": "EagleXRGB_Connector.exe",
       "action": "replace",
-      "hash": "a1bea180ee0b2f76cd0f81ee773922330e991ec2b2d756b0bda043ba0a87b4fd",
+      "hash": "aa613b6162782c80e357541efc111340a5f385bb0816019f9c458170f4c3af58",
       "critical": true
     },
     {
@@ -26,87 +26,87 @@
             {
               "path": "EagleXRGB_BootstrapUpdater.enc",
               "action": "replace_if_flagged",
-              "hash": "580df28e522e7a8e71bae516b180759cd3691d1698d2343f6ba4119a1724c907"
+              "hash": "17230275f8a97cf84fadf73ded6afe57b1bd8a693cfd062fbed3e89ec0c7bd56"
             },
             {
               "path": "EagleXRGB_custom_widgets.enc",
               "action": "replace_if_flagged",
-              "hash": "d720b16e885bdd2e819506c8983f49599d43b96ab5bd37848b8564a38947c06c"
+              "hash": "b79a6a475ab6311d1a63c80e57ff6a9c3007de1ffbc556708031c765d80f1cda"
             },
             {
               "path": "EagleXRGB_Downloader.enc",
               "action": "replace_if_flagged",
-              "hash": "8ba406cb980e98a0e7d278d80bbf6cdd164566cb73537462606b326b8e7e41f5"
+              "hash": "ce0f3f3b1521e81d0cbab7efef7d1ae24ef106e2b58c3ebed0dba20015ea0e01"
             },
             {
               "path": "EagleXRGB_Error_Reporting.enc",
               "action": "replace_if_flagged",
-              "hash": "ac8b41646fd3580a8062b71bc15cd2bf7935314a0fd065b3db2f469f4a44502b"
+              "hash": "b5bd7c0e156f725313d191036ed9f812f51aa182fea4c5b456278ec1fc7c1fa5"
             },
             {
               "path": "EagleXRGB_GUI_Config.enc",
               "action": "replace_if_flagged",
-              "hash": "e5d6a64e966af13a8cd1038e06cc9a67d3c3736f33fe6dee771e603c38be80ba"
+              "hash": "6f8a889bb8a42b6bda4c48560c221fd3e2ab7ba914760c015c3abc79e9de732b"
             },
             {
               "path": "EagleXRGB_HashVerification.enc",
               "action": "replace_if_flagged",
-              "hash": "1d600b32e2ba2a144396e36209e6436c4d4880410f52a125f1d8c6a3ded4e18b"
+              "hash": "14666f3790e850dcddf5696af187396a46ee43f8e2a3f2f527f5852991591747"
             },
             {
               "path": "EagleXRGB_Notifications.enc",
               "action": "replace_if_flagged",
-              "hash": "0e38e6bacbc65c4fbf8e5ed0e1d3682323d4963348fd36822710c1c9940b00e3"
+              "hash": "183c3896993aa7444569dddf83970bc1031ded0438f71243cf2c44864f3f19bf"
             },
             {
               "path": "EagleXRGB_OpenRGB_config.enc",
               "action": "replace_if_flagged",
-              "hash": "de404eba4a02a3f217901ce3e2bb7c2257ce2e4f5677ef294762c7a8f94c816d"
+              "hash": "4e99f616ab7ad26d6b882a8e7d4684def351894b130792d72a33ea651b7c0182"
             },
             {
               "path": "EagleXRGB_Server_Config.enc",
               "action": "replace_if_flagged",
-              "hash": "025f63c317494106890551aad80477cd3c7fbf8eeea53a541d634e2fe588fb97"
+              "hash": "f6ca348f2a4e535e37a83295789be0d2f143e1f792fd5df16a5cd77b2921553d"
             },
             {
               "path": "EagleXRGB_splash_screen.enc",
               "action": "replace_if_flagged",
-              "hash": "f90df86e8ce0e8a45bf5e78274b353c5701c0e622aae82e75a6eac98015d5871"
+              "hash": "51e659fd0451914891ea980c10bbf8073cce45ae9c72c366274050813241437a"
             },
             {
               "path": "EagleXRGB_StreamingVerifier.enc",
               "action": "replace_if_flagged",
-              "hash": "d8ac6056b1471462044cf2b7ecf5f02ab4e1c04122f6ef3bd0972cb321f6bb47"
+              "hash": "0a915a06df8bcbc7e29c196c298729d97cadb97030084eb976e0db7a18a800df"
             },
             {
               "path": "EagleXRGB_UI_Components.enc",
               "action": "replace_if_flagged",
-              "hash": "d2bd8337487de00cfc77a8d5e12e08ef831a69aa4f9a315d4443c3c4f0c12dfe"
+              "hash": "0caca5e6071db85622fe6ae8fe8ceaa96764312dadcc9deda0f429e6f6a75451"
             },
             {
               "path": "EagleXRGB_Updater.enc",
               "action": "replace_if_flagged",
-              "hash": "733ee6eaca1953621558456071822e9bd66554e424196f054b02005db430cc31"
+              "hash": "312c9958c890b28a4dce6eac79ffa5ef08b6e33f0a49fd75d234a9e8f77be18e"
             },
             {
               "path": "EagleXRGB_UpdaterElevator.enc",
               "action": "replace_if_flagged",
-              "hash": "00157f9b33904f93f1ae4e66fc485bedaeade5d4123b0e44a7e3e6bbb25206aa"
+              "hash": "3af2bd0f49b86bfa5b9c89a083b06d1c589f4165fd4cdb9991978499a30f3b7c"
             },
             {
               "path": "EagleXRGB_version_utils.enc",
               "action": "replace_if_flagged",
-              "hash": "8f972dce107b261902d0c83de1570db8032591cb9f23e7ff50c88a6905d524d2"
+              "hash": "2b1129418092e826585cf3ec13e1445d79639c2933c89bc1b962b08aa005aaf9"
             },
             {
               "path": "test_module.enc",
               "action": "replace_if_flagged",
-              "hash": "df3a1f396a5a3dbd3a44cf4a4b672f8c83cc8a7b4b00609f468d9ad677695283"
+              "hash": "1c3c46589b603e00ce20e8223c93b9f049f63b62a64695742f1ff9e2b6141587"
             },
             {
               "path": "__init__.enc",
               "action": "replace_if_flagged",
-              "hash": "b2b540236409d930ba9dc13acbd8ac9253c35b77016607ac5dfd0a857745cd42"
+              "hash": "054310dfb5d4ecbf495ed9efb64ce0dfbb9a023efee0037cc52ee84435f07380"
             }
           ]
         }
@@ -114,23 +114,23 @@
     }
   ],
   "script_hashes": {
-    "EagleXRGB_BootstrapUpdater.enc": "580df28e522e7a8e71bae516b180759cd3691d1698d2343f6ba4119a1724c907",
-    "EagleXRGB_custom_widgets.enc": "d720b16e885bdd2e819506c8983f49599d43b96ab5bd37848b8564a38947c06c",
-    "EagleXRGB_Downloader.enc": "8ba406cb980e98a0e7d278d80bbf6cdd164566cb73537462606b326b8e7e41f5",
-    "EagleXRGB_Error_Reporting.enc": "ac8b41646fd3580a8062b71bc15cd2bf7935314a0fd065b3db2f469f4a44502b",
-    "EagleXRGB_GUI_Config.enc": "e5d6a64e966af13a8cd1038e06cc9a67d3c3736f33fe6dee771e603c38be80ba",
-    "EagleXRGB_HashVerification.enc": "1d600b32e2ba2a144396e36209e6436c4d4880410f52a125f1d8c6a3ded4e18b",
-    "EagleXRGB_Notifications.enc": "0e38e6bacbc65c4fbf8e5ed0e1d3682323d4963348fd36822710c1c9940b00e3",
-    "EagleXRGB_OpenRGB_config.enc": "de404eba4a02a3f217901ce3e2bb7c2257ce2e4f5677ef294762c7a8f94c816d",
-    "EagleXRGB_Server_Config.enc": "025f63c317494106890551aad80477cd3c7fbf8eeea53a541d634e2fe588fb97",
-    "EagleXRGB_splash_screen.enc": "f90df86e8ce0e8a45bf5e78274b353c5701c0e622aae82e75a6eac98015d5871",
-    "EagleXRGB_StreamingVerifier.enc": "d8ac6056b1471462044cf2b7ecf5f02ab4e1c04122f6ef3bd0972cb321f6bb47",
-    "EagleXRGB_UI_Components.enc": "d2bd8337487de00cfc77a8d5e12e08ef831a69aa4f9a315d4443c3c4f0c12dfe",
-    "EagleXRGB_Updater.enc": "733ee6eaca1953621558456071822e9bd66554e424196f054b02005db430cc31",
-    "EagleXRGB_UpdaterElevator.enc": "00157f9b33904f93f1ae4e66fc485bedaeade5d4123b0e44a7e3e6bbb25206aa",
-    "EagleXRGB_version_utils.enc": "8f972dce107b261902d0c83de1570db8032591cb9f23e7ff50c88a6905d524d2",
-    "test_module.enc": "df3a1f396a5a3dbd3a44cf4a4b672f8c83cc8a7b4b00609f468d9ad677695283",
-    "__init__.enc": "b2b540236409d930ba9dc13acbd8ac9253c35b77016607ac5dfd0a857745cd42"
+    "EagleXRGB_BootstrapUpdater.enc": "17230275f8a97cf84fadf73ded6afe57b1bd8a693cfd062fbed3e89ec0c7bd56",
+    "EagleXRGB_custom_widgets.enc": "b79a6a475ab6311d1a63c80e57ff6a9c3007de1ffbc556708031c765d80f1cda",
+    "EagleXRGB_Downloader.enc": "ce0f3f3b1521e81d0cbab7efef7d1ae24ef106e2b58c3ebed0dba20015ea0e01",
+    "EagleXRGB_Error_Reporting.enc": "b5bd7c0e156f725313d191036ed9f812f51aa182fea4c5b456278ec1fc7c1fa5",
+    "EagleXRGB_GUI_Config.enc": "6f8a889bb8a42b6bda4c48560c221fd3e2ab7ba914760c015c3abc79e9de732b",
+    "EagleXRGB_HashVerification.enc": "14666f3790e850dcddf5696af187396a46ee43f8e2a3f2f527f5852991591747",
+    "EagleXRGB_Notifications.enc": "183c3896993aa7444569dddf83970bc1031ded0438f71243cf2c44864f3f19bf",
+    "EagleXRGB_OpenRGB_config.enc": "4e99f616ab7ad26d6b882a8e7d4684def351894b130792d72a33ea651b7c0182",
+    "EagleXRGB_Server_Config.enc": "f6ca348f2a4e535e37a83295789be0d2f143e1f792fd5df16a5cd77b2921553d",
+    "EagleXRGB_splash_screen.enc": "51e659fd0451914891ea980c10bbf8073cce45ae9c72c366274050813241437a",
+    "EagleXRGB_StreamingVerifier.enc": "0a915a06df8bcbc7e29c196c298729d97cadb97030084eb976e0db7a18a800df",
+    "EagleXRGB_UI_Components.enc": "0caca5e6071db85622fe6ae8fe8ceaa96764312dadcc9deda0f429e6f6a75451",
+    "EagleXRGB_Updater.enc": "312c9958c890b28a4dce6eac79ffa5ef08b6e33f0a49fd75d234a9e8f77be18e",
+    "EagleXRGB_UpdaterElevator.enc": "3af2bd0f49b86bfa5b9c89a083b06d1c589f4165fd4cdb9991978499a30f3b7c",
+    "EagleXRGB_version_utils.enc": "2b1129418092e826585cf3ec13e1445d79639c2933c89bc1b962b08aa005aaf9",
+    "test_module.enc": "1c3c46589b603e00ce20e8223c93b9f049f63b62a64695742f1ff9e2b6141587",
+    "__init__.enc": "054310dfb5d4ecbf495ed9efb64ce0dfbb9a023efee0037cc52ee84435f07380"
   },
   "excluded_paths": [
     "python_embedded/**/*",
